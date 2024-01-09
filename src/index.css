@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+* {
+  margin: 0;
+  font-family: "Lato";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.navbar .links {
+  margin-left: auto;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.navbar a:hover {
+  color:aliceblue;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border: 1px solid #000;
+}
+
+.description {
+  width: 50%;
+}
+
+.photo {
+  width: 50%;
+  text-align: center;
+}
+
+.headshot {
+  width: 50%;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.projects {
+  text-align: center;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20%;
+  border: 1px solid #000;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 25%;
+  display: flex;
+  border: 1px solid #000;
+}
+
+.project-description{
+  width: 50%;
+  text-align: left;
+  border: 1px solid #000;
+}
+
+.project-image {
+  width: 50%;
+  border: 1px solid #000;
+}
+
+.content {
+  border: 1px solid #000;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.contact {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.contact-info {
+  margin-left: auto;
+  display:flex;
+  justify-content: space-between;
+  width: 200px;
+}
