@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 * {
   margin: 0;
@@ -8,20 +7,42 @@
   color: #333;
 }
 
+.nav-section {
+  background-color: #161A30;
+}
+
+.nav-section h1, h4, a {
+  color: #B6BBC4;
+}
+
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
-  border: 1px solid #000;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.accent {
+  height: 15px;
+  width: 28px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: #F0ECE5;
 }
 
 .navbar .links {
   margin-left: auto;
-  width: 350px;
+  width: 380px;
   display: flex;
   justify-content: space-between;
+}
+
+.navbar a {
+  letter-spacing: 0.5px;
+  text-decoration: none;
 }
 
 
