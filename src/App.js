@@ -3,6 +3,7 @@ import About from './About';
 import Projects from './Projects';
 import Gallery from './Gallery';
 import Contact from './Contact';
+import Skills from './Skills';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <div className="content">
         <About />
+        <Skills />
         <Projects />
         <Gallery />
       </div>
