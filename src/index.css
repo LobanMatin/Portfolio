@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 
 
 
@@ -29,30 +31,79 @@
   color:aliceblue;
 }
 
+
+.about-section {
+  width: 100%;
+  margin: 0;
+  border: 1px solid #000;
+  background-color: #31304D;
+}
+
 .about {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 90%;
-  margin-left: 5%;
-  margin-top: 15%;
+  max-width: 40%;
+  margin-left: 30%;
+  margin-top: 8%;
   margin-bottom: 15%;
-  border: 1px solid #000;
+  z-index: 1;
+  background-color: #161A30;
 }
 
 .description {
+  padding-top:5%;
   width: 50%;
+  background-color: #B6BBC4;
+}
+
+.description > * {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.description p {
+  margin-bottom: 5%;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.btn-holder {
+  margin-left: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.about-btn {
+  margin-right: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 0.8em;
+  font-weight: 900;
+  border-radius: 30px;
+  background-color: #F0ECE5;
 }
 
 .photo {
   width: 50%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.accent-bar {
+  width:100%;
+  height: 50px;
+  background-color: #F0ECE5;
 }
 
 .headshot {
   width: 50%;
   border-radius: 50%;
-  border: 1px solid #000;
 }
 
 .projects {
@@ -89,9 +140,7 @@
 
 .content {
   border: 1px solid #000;
-  max-width: 800px;
   margin: 40px auto;
-  padding: 20px;
 }
 
 .contact {
